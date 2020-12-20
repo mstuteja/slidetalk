@@ -1,0 +1,110 @@
+﻿| SlideTalk
+SlideTalk 
+Presentation Control 
+Latest stable release: version 1.0 (as on 12/20/2020)
+
+
+Description 
+
+
+SlideTalk is a presentation automation tool developed in Python that harnesses the features of Python’s powerful Natural Language Processing Libraries. It uses an interactive Graphical User Interface built using PyQT5 and allows users to control their presentation on the go as they like. This easy-to-use tool enhances appeal of otherwise ordinary presentations and enables users to provide an immersive experience to their viewers. 
+
+
+Dependencies 
+
+
+In order to successfully use this application, users must install the following dependencies: 
+
+
+* Python (3 and above): 
+Installation: https://www.python.org/downloads/    
+ 
+* python-pptx: It is a Python library for creating and updating PowerPoint (.pptx) files.  
+Installation: https://python-pptx.readthedocs.io/en/latest/user/install.html 
+
+
+* Python nltk: NLTK is a prominent library for building Python programs to work with human language data.  
+Installation: https://www.nltk.org/install.html   
+
+
+* PyQT5: PyQt is a GUI builder library that brings together the Qt cross-platform application framework and the cross-platform interpreted language Python. 
+Installation: https://www.riverbankcomputing.com/static/Docs/PyQt5/installation.html 
+
+
+Installation 
+
+
+Download the zip folder from our official website and extract the files together in the same directory. Install required dependencies (refer to the dependencies section) and run the main.py file either in the terminal/command window or an IDE. 
+
+
+Demo 
+
+
+Please find a video demonstration of the project implementation at our website. 
+
+
+Contributing
+
+
+Access is highly restricted and available only on request. Please contact the undersigned to know more. 
+
+
+Issue tracker: Visit our website for further information.
+
+
+License 
+
+
+This project, when available as open source, is available under GNU General Public License, version 3 (GPLv3). Please abide by the guidelines mentioned at this link to avoid any inconvenience: https://www.gnu.org/licenses/gpl-3.0.en.html 
+
+
+Citation 
+
+
+Based on common IEEE and ACM citation rules, please follow the following syntax while citing our code.
+
+
+<author(s) names> (<date>) <title of program/source code> (<code version>) [<type>]. Web address or publisher.
+
+
+Please substitute slidetalk in the author name placeholder and substitute the link to our website in the placeholder for web address/publisher.  
+
+
+For DOI, please contact the undersigned. 
+
+
+Contact 
+
+
+Official Website: 
+Email Addresses: mtalwar@umass.edu, mtuteja@umass.edu 
+
+
+
+
+
+
+Organization
+
+
+File name 
+	Purpose 
+	main.py
+	The heart and soul of the project. The executable file of the project.
+	ui_main.py
+ui_options.py
+ui_splash_screen.py
+	PyQT5 code for primary interface
+PyQT5 code for secondary interface
+PyQT5 code for splash screen interface 
+	extractdata.py
+	This file contains python functions to access data in user’s powerpoint presentation
+	pptcontrol.py
+	This file contains python functions and commands to control the flow of slideshow.  
+	similar.py
+	This file contains the similarity algorithm that matches data from presentation with the data from speech recognition. 
+	speechrecog.py
+	This file contains the code for the speech recognition functionality used in the application. 
+	
+
+For a detailed description of the function definitions, please refer to individual files.
